@@ -39,7 +39,7 @@ class="javapgm">import NamedJDBC.DevatenNamedParameterJdbcTemplate;
          <version>1.0</version>
       </dependency>
   ```      
-  Now take back end build- use mvn clean install and generate the jar file. Run the generated jar file of your application.
+  &nbsp; Now take back end build- use mvn clean install and generate the jar file. Run the generated jar file of your application.
   
 7.  Now to see your query comment added to your queries. First sign up to the Devaten application and add your agent, add your application and configure the datasource of your application.
 8.  Start Recording and execute the queries of the module where you have added the query comment code.
