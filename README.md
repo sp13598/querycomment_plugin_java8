@@ -17,7 +17,7 @@ mvn install:install-file -Dfile="E:\QueryCommentPlugin\QueryCommentPluginJava8\Q
 ```
 class="javapgm">import NamedJDBC.DevatenNamedParameterJdbcTemplate;
 ```
-   ii) Replace this code with the matching this in your repository-
+  <br /> ii) Replace this code with the matching this in your repository-
 ```
  @Repository
        public class FaqRepository1 extends JdbcDaoSupport {
