@@ -12,7 +12,7 @@ mvn install:install-file -Dfile="E:\QueryCommentPlugin\QueryCommentPluginJava8\Q
 3. After type this command press enter and you will get the “Build Success” message it means that you have successfully installed the file.
 
 4. For adding query comment through application you need to do the changes in the particular module repository. Where you want to add the following code.
-   Do this changes in the repository file-
+   Do this changes in the repository file-<br />
    i) Add this import statement-
 ```
 class="javapgm">import NamedJDBC.DevatenNamedParameterJdbcTemplate;
