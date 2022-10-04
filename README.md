@@ -17,7 +17,7 @@ mvn install:install-file -Dfile="E:\QueryCommentPlugin\QueryCommentPluginJava8\Q
 ```
 class="javapgm">import NamedJDBC.DevatenNamedParameterJdbcTemplate;
 ``` 
-   ii) Replace this code with the matching this in your repository-
+5. Replace this code with the matching this in your repository-
   
 ```
  @Repository
@@ -30,3 +30,12 @@ class="javapgm">import NamedJDBC.DevatenNamedParameterJdbcTemplate;
           namedJdbcTemplate = new DevatenNamedParameterJdbcTemplate(dataSource);
         }
 ```        
+6. Now add the dependency of this query comment plugin in your applications pom.xml file. 
+   First open the pom.xml file of your application and paste this dependency in that and save it
+```
+<dependency>
+          <groupId> org.devaten_team7.comment_plugin </groupId>                
+          <artifactId>comment_plugin</artifactId>
+         <version>1.0</version>
+      </dependency>
+```      
